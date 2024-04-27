@@ -1,7 +1,8 @@
 VIEW ACTIVE DOCKERS BY IP:
 docker inspect --format '{{.Name}}\t{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -q)
 
-docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+VERIFICA O IP DE UM CONTAINER
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <CONTAINER>
 
 COMMIT CONTAINER TO IMAGE
 docker commit 1cf1966a67e brunosallesdev/powerdash-nginx:latest
@@ -12,7 +13,8 @@ docker exec -it db6854612dea cat /etc/letsencrypt/live/thelaserspace/fullchain.p
 FORCAR INICIO DO CONTAINER COM ERRO
 docker run -it --rm 7f20add38ae6 /bin/bash
 
-
-docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/fullchain.pem 32a8cc7acdf4:/etc/letsencrypt/live/thelaser.space/
-docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/privkey.pem 32a8cc7acdf4:/etc/letsencrypt/live/thelaser.space/
+COPIA DO HD PARA O CONTAINER:
 docker cp /docker-files/thelaserspace/docker-compose/config/default.conf 8f87812d69da:/etc/nginx/conf.d/
+
+CRIA UM CONTAINER POSTGRES
+docker run --name brunothebot-postgres -e POSTGRES_PASSWORD=@pyramid2050! -d postgres
