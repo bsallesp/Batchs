@@ -10,4 +10,9 @@ INSPECIONAR UM ARQUIVO DENTRO DO DOCKER
 docker exec -it db6854612dea cat /etc/letsencrypt/live/thelaserspace/fullchain.pem
 
 FORCAR INICIO DO CONTAINER COM ERRO
-docker run -it --rm da1580bdd65e /bin/bash
+docker run -it --rm 7f20add38ae6 /bin/bash
+
+
+docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/fullchain.pem 8f87812d69da:/etc/letsencrypt/live/thelaser.space/
+docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/privkey.pem 8f87812d69da:/etc/letsencrypt/live/thelaser.space/
+docker cp /docker-files/thelaserspace/docker-compose/config/default.conf 8f87812d69da:/etc/nginx/conf.d/
