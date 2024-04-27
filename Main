@@ -10,4 +10,4 @@ INSPECIONAR UM ARQUIVO DENTRO DO DOCKER
 docker exec -it db6854612dea cat /etc/letsencrypt/live/thelaserspace/fullchain.pem
 
 FORCAR INICIO DO CONTAINER COM ERRO
-docker run -it --rm <container_id> /bin/bash
+docker run -it --rm da1580bdd65e /bin/bash
