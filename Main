@@ -8,3 +8,6 @@ docker commit 1cf1966a67e brunosallesdev/powerdash-nginx:latest
 
 INSPECIONAR UM ARQUIVO DENTRO DO DOCKER
 docker exec -it db6854612dea cat /etc/letsencrypt/live/thelaserspace/fullchain.pem
+
+FORCAR INICIO DO CONTAINER COM ERRO
+docker run -it --rm <container_id> /bin/bash
