@@ -13,6 +13,6 @@ FORCAR INICIO DO CONTAINER COM ERRO
 docker run -it --rm 7f20add38ae6 /bin/bash
 
 
-docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/fullchain.pem 8f87812d69da:/etc/letsencrypt/live/thelaser.space/
-docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/privkey.pem 8f87812d69da:/etc/letsencrypt/live/thelaser.space/
+docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/fullchain.pem 32a8cc7acdf4:/etc/letsencrypt/live/thelaser.space/
+docker cp /docker-files/thelaserspace/docker-compose/letsencrypt/live/thelaser.space/privkey.pem 32a8cc7acdf4:/etc/letsencrypt/live/thelaser.space/
 docker cp /docker-files/thelaserspace/docker-compose/config/default.conf 8f87812d69da:/etc/nginx/conf.d/
