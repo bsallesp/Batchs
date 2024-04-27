@@ -7,4 +7,4 @@ COMMIT CONTAINER TO IMAGE
 docker commit 1cf1966a67e brunosallesdev/powerdash-nginx:latest
 
 INSPECIONAR UM ARQUIVO DENTRO DO DOCKER
-docker exec -it <container_id> cat /etc/letsencrypt/live/thelaserspace/fullchain.pem
+docker exec -it db6854612dea cat /etc/letsencrypt/live/thelaserspace/fullchain.pem
