@@ -2,3 +2,7 @@ VIEW ACTIVE DOCKERS BY IP:
 docker inspect --format '{{.Name}}\t{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -q)
 
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+
+
+COMMIT CONTAINER TO IMAGE
+docker commit 1cf1966a67e brunosallesdev/powerdash-nginx:latest
