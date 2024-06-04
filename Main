@@ -19,9 +19,13 @@ docker cp /docker-files/thelaserspace/docker-compose/config/default.conf 8f87812
 CRIA UM CONTAINER POSTGRES
 docker run --name brunothebot-postgres -e POSTGRES_PASSWORD=@pyramid2050! -d postgres
 
-
 curl -I http://seusite.com
-
-
-
 nmap -p 80,443 thelaser.space
+#!/bin/bash
+
+# Remover todos os containers
+docker rm -f $(docker ps -a -q)
+# Remover todas as imagens
+docker rmi -f $(docker images -q)
+# Recriar os serviços com Docker Compose
+docker-compose up --build
