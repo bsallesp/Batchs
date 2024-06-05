@@ -28,4 +28,4 @@ docker rm -f $(docker ps -a -q)
 # Remover todas as imagens
 docker rmi -f $(docker images -q)
 # Recriar os serviços com Docker Compose
-docker-compose up --build
+docker-compose up --build -d
