@@ -29,3 +29,19 @@ docker rm -f $(docker ps -a -q)
 docker rmi -f $(docker images -q)
 # Recriar os serviços com Docker Compose
 docker-compose up --build -d
+
+
+
+
+
+# Caminho do arquivo
+$path = "C:\Users\bsall\source\repos\BrunoTheBot.Blazor\BrunoTheBot.PDFAPI\API-PDF\app.py"
+
+# Ler o conteúdo do arquivo
+$content = Get-Content -Path $path -Raw
+
+# Criar o objeto de codificação UTF-8 sem BOM
+$encoding = New-Object System.Text.UTF8Encoding($false)
+
+# Salvar o arquivo com UTF-8 sem BOM
+[System.IO.File]::WriteAllText($path, $content, $encoding)
