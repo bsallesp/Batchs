@@ -31,9 +31,6 @@ docker rmi -f $(docker images -q)
 docker-compose up --build -d
 
 
-
-
-
 # Caminho do arquivo
 $path = "C:\Users\bsall\source\repos\BrunoTheBot.Blazor\BrunoTheBot.PDFAPI\API-PDF\app.py"
 
