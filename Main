@@ -37,9 +37,12 @@ docker rm -f $(docker ps -a -q)
 docker rmi -f $(docker images -q)
 # Recriar os serviços com Docker Compose
 docker-compose up --build -d
+-----------
+docker system prune -a --volumes
+-----------
 
 
-# Caminho do arquivo
+# LIMPAR CACHE DO NAVEGADOR DE UMA PAGINA ESPECIFICA
 $path = "C:\Users\bsall\source\repos\BrunoTheBot.Blazor\BrunoTheBot.PDFAPI\API-PDF\app.py"
 # Ler o conteúdo do arquivo
 $content = Get-Content -Path $path -Raw
