@@ -1,0 +1,47 @@
+Conteudo tecnico:
+
+1.Fontes:
+
+
+1. Qual é o propósito principal do seu aplicativo?
+Nosso aplicativo visa fornecer uma plataforma fácil e eficiente para a criação de quizzes online,permitindo que os usuários testem e aprimorem seus onhecimentos de forma interativa e acessível.
+
+
+2. Como seu aplicativo funciona em termos técnicos para processar PDFs e formular perguntas?
+Ao receber um PDF, nosso aplicativo utiliza um microserviço em Flask para converter o PDF em strings de texto. Em seguida, a API do ChatGPT é acionada para transformar essas strings em perguntas relevantes para os quizzes.
+
+
+3. Qual é o mercado-alvo do seu aplicativo? Quem são seus principais usuários?
+O mercado-alvo do nosso aplicativo são estudantes de todos os níveis educacionais, incluindo ensino fundamental, médio e superior, bem como profissionais em busca de aprendizado contínuo e aprimoramento de habilidades específicas.
+
+
+4. Quais problemas específicos seu aplicativo resolve para os usuários?
+Nosso aplicativo resolve o problema da criação manual de questionários, oferecendo uma solução automatizada e eficiente para a geração de quizzes personalizados a partir de documentos em PDF.
+
+
+5. Qual é a proposta única de valor do seu aplicativo em comparação com outras soluções no mercado?
+A proposta única de valor do nosso aplicativo reside na sua capacidade de transformar documentos em PDF em quizzes interativos de forma automatizada. Enquanto outras soluções exigem que os usuários criem manualmente os questionários, nosso aplicativo utiliza tecnologias de processamento de linguagem natural para extrair informações relevantes dos PDFs e formular perguntas de maneira eficiente e precisa. Isso economiza tempo e esforço dos usuários, tornando o processo de criação de quizzes mais rápido e acessível.
+
+
+6. Quem são seus concorrentes diretos e indiretos? Quais são seus pontos fortes e fracos?
+Os concorrentes diretos incluem outras plataformas de criação de quizzes e ferramentas de autoria de conteúdo educacional. Os pontos fortes do nosso aplicativo incluem sua automação, facilidade de uso e capacidade de transformar rapidamente documentos em PDF em quizzes. Os pontos fracos podem incluir a dependência de tecnologias de processamento de linguagem natural, que podem não ser tão precisas em determinados casos.
+
+
+9. Qual é a sua estratégia de precificação? Como você determinará o valor para os usuários?
+A estratégia de precificação será baseada em modelos de assinatura mensal ou anual, oferecendo diferentes níveis de acesso e recursos conforme o plano selecionado. O valor será determinado considerando fatores como a complexidade do processamento de PDFs, o número de quizzes que podem ser criados, o suporte ao cliente oferecido e os recursos adicionais disponíveis.
+
+
+12. Como você planeja manter os usuários engajados e incentivá-los a permanecer no aplicativo?
+Planejamos manter os usuários engajados oferecendo recursos adicionais, como análises de desempenho nos quizzes, sugestões de estudo personalizadas com base nos resultados obtidos e competições entre usuários. Além disso, pretendemos implementar atualizações regulares com novos recursos e conteúdo educacional para manter o aplicativo relevante e interessante para os usuários.
+
+
+15. Quais são suas projeções financeiras para os próximos três a cinco anos? Como você planeja financiar o desenvolvimento e a operação do seu aplicativo?
+Nossas projeções financeiras incluirão estimativas de receita com base no número esperado de assinantes e planos de precificação. Planejamos financiar o desenvolvimento inicial do aplicativo com recursos próprios e, posteriormente, explorar opções de financiamento adicionais, como investidores anjo ou capital de risco, conforme necessário para escalar o negócio.
+
+
+16. Quais são suas estratégias de saída potenciais para o negócio?
+Nossas estratégias de saída potenciais incluem a venda do aplicativo para uma empresa maior do setor educacional, fusão com uma empresa complementar ou oferta pública inicial (IPO) para permitir a entrada no mercado de capitais e acelerar o crescimento do negócio.
+
+
+17. Quem são os membros da equipe fundadora e qual é a experiência deles relevantes para o seu aplicativo?
+eu sou o programador, CEO, CTO, etc.
