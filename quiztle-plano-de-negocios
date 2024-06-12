@@ -1,7 +1,33 @@
 Conteudo tecnico:
 
-1.Fontes:
+1. Fontes:
+Rajdhani-Regular (logo)
+Poppins-Bold
+Roboto-Regular
 
+--------------------------------------------------------------
+2. paleta de cores:
+
+Cor1: Azul Real (#1E3A8A)
+Utilização: Esta será a cor principal do branding do aplicativo. Utilize-a no logotipo, nos cabeçalhos, e em botões de ação primária para criar um contraste marcante e transmitir confiança e profissionalismo.
+
+Cor2: Verde Claro (#10B981)
+Utilização: Use esta cor para botões de ação secundária, ícones de sucesso, e destaques de funcionalidades importantes. O verde claro é uma cor que sugere crescimento e positividade, adequada para um aplicativo educacional.
+Cor3: Cinza Claro (#F3F4F6)
+
+Utilização: Esta cor será usada para fundos de seções, áreas de texto e formulários, criando uma interface limpa e fácil de ler. O cinza claro proporciona um bom contraste com o azul e o verde, mantendo a aparência do aplicativo leve e moderna.
+Exemplo de Aplicação das Cores
+Cabeçalho e Rodapé: Azul Real (#1E3A8A)
+Botões Primários: Azul Real (#1E3A8A)
+Botões Secundários: Verde Claro (#10B981)
+Ícones de Sucesso/Confirmação: Verde Claro (#10B981)
+Fundos de Seções e Formulários: Cinza Claro (#F3F4F6)
+Texto Principal: Preto ou Cinza Escuro (preto para legibilidade, especialmente em fundo claro)
+Com esta paleta de cores, seu aplicativo terá uma aparência coerente e profissional, ao mesmo tempo em que proporciona uma boa experiência de usuário, mantendo a interface clara e intuitiva.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Plano de Negocios:
 
 1. Qual é o propósito principal do seu aplicativo?
 Nosso aplicativo visa fornecer uma plataforma fácil e eficiente para a criação de quizzes online,permitindo que os usuários testem e aprimorem seus onhecimentos de forma interativa e acessível.
