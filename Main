@@ -64,3 +64,6 @@ localStorage.clear();
 // Limpar sessionStorage
 sessionStorage.clear();
 console.log('Todos os dados do site foram limpos.');
+
+//FORCAR EXCLUSAO EM TEMP
+del /f /s /q C:\Users\bsall\AppData\Local\Temp\*
