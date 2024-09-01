@@ -26,6 +26,10 @@ CRIA UM CONTAINER POSTGRES
 docker run --name brunothebot-postgres -e POSTGRES_PASSWORD=@pyramid2050! -d postgres
 
 
+RESTAURA O BACKUP DE UM VOLUME DOCKER
+docker run --rm -v docker_quiztle-postgres-data:/var/lib/postgresql/data -v /home/azureuser/bucket:/backup busybox tar xzvf /backup/docker_quiztle-postgres-data.tar.gz -C /var/lib/postgresql/data
+
+
 curl -I http://seusite.com
 nmap -p 80,443 thelaser.space
 #!/bin/bash
