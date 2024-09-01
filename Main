@@ -30,6 +30,12 @@ RESTAURA O BACKUP DE UM VOLUME DOCKER
 docker run --rm -v docker_quiztle-postgres-data:/var/lib/postgresql/data -v /home/azureuser/bucket:/backup busybox tar xzvf /backup/docker_quiztle-postgres-data.tar.gz -C /var/lib/postgresql/data
 
 
+ATUALIZA AS QUESTIONS ORFANS:
+UPDATE "Questions"
+SET "TestId" = '3cad927f-53eb-4f03-a6c3-29daf3369dbc'
+WHERE "TestId" IS NULL;
+
+
 curl -I http://seusite.com
 nmap -p 80,443 thelaser.space
 #!/bin/bash
